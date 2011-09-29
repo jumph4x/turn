@@ -32,7 +32,7 @@ class MiniTest::Unit
                /./ # anything - ^test_ already filtered by #tests
              end
 
-    @trace = options['t'] || options['trace']
+    @trace = true
 
     @@out.puts "Loaded suite #{$0.sub(/\.rb$/, '')}\nStarted"
 
